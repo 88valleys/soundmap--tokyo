@@ -8,9 +8,8 @@ Soundmap Tokyo is a one-page React application that features searching for liveh
 - [Usage](#usage)
 - [API](#api)
 - [Dependencies](#dependencies)
-<!-- - [Screenshots](#screenshots) -->
 - [Contributing](#contributing)
-- [License](#license)
+<!-- - [Screenshots](#screenshots) -->
 
 ## Installation
 
@@ -34,7 +33,7 @@ Soundmap Tokyo is a one-page React application that features searching for liveh
     npm run dev
     ```
 
-3. Open your browser and navigate to `http://localhost:3000`.
+3. Open your browser and navigate to `http://127.0.0.1:5173/soundmap-tokyo/`.
 
 ## Usage
 
@@ -99,9 +98,10 @@ The application uses a custom API to fetch livehouse data. Below are the details
       {
         "id": 2,
         "name": "New Livehouse",
-        "address": "456 Tokyo St.",
-        "description": "A new livehouse in Tokyo.",
-        "image": "https://example.com/new-image.jpg"
+        "address": "1-1-1 Jingumae",
+        "genres": [ "Punk", "Rock", "Metal" ],
+        "nearest_station": "Harajuku Station",
+        "picture": "https://example.com/new-image.jpg"
       }
       ```
 
