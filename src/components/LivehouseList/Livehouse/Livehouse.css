@@ -1,0 +1,141 @@
+.custom-btn-red {
+  background-color: #8B0000;
+  border-color: #8B0000;
+  color: white;
+}
+
+.custom-btn-red:hover {
+  background-color: #73232E; 
+  border-color: #73232E;
+}
+
+.livehouse-card {
+  height: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.livehouse-card > img {
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.livehouse-card > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  min-height: 160px;
+}
+
+.livehouse-card > div > div {
+  /* min-height: 120px; */
+}
+
+.livehouse-card h5 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.livehouse-card h6 {
+  font-size: 1rem;
+  color: #555;
+  margin: 8px 0 4px;
+}
+
+.livehouse-card p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+}
+
+.livehouse-card p > span {
+  background-color: #6c757d;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.livehouse-card > div > a {
+  padding: 8px;
+  background-color: #8B2D3B;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.livehouse-card > div > a:hover {
+  background-color: #6B0000;
+}
+
+.btn-primary {
+  background-color: #8B0000;
+  border-color: #8B0000;
+}
+
+.btn-primary:hover {
+  background-color: #6B0000; 
+  border-color: #6B0000;
+}
+
+.btn-info {
+  background-color: #000000;
+  border-color: #000000;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #8B0000; 
+  border-color: #8B0000;
+}
+
+.livehouse-card .content-container {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.livehouse-info {
+  flex: 1;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-center;
+  font-size: 10px;
+}
+
+.livehouse-card .content-container {
+  display: flex;
+  flex-direction: column; 
+  padding: 16px;
+  gap: 16px; 
+}
+
+.livehouse-info {
+  flex: 1; 
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+  gap: 8px; /* Adds space between the buttons */
+}
+
+.action-buttons a {
+  flex: 1 1 45%; /* Make buttons take equal width and allow wrapping */
+
+  text-align: center; /* Center the text */
+
+  font-size: 14px;
+}

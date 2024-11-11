@@ -1,0 +1,24 @@
+.livehouse-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  padding: 24px;
+  height: fit-content;
+  /* background-image: url('../../assets/background-img.jpg'); /* Add your background image here 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; Prevent the image from repeating */
+
+}
+
+@media (min-width: 700px) {
+  .livehouse-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .livehouse-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
