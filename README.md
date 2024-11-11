@@ -1,7 +1,6 @@
 # Soundmap Tokyo
 
-Soundmap Tokyo is a one-page React application that features searching for livehouses in Tokyo by location, genre, and keyword. Users can also add livehouses to the API by filling in a form on the Sidebar.jsx component.
-
+Soundmap Tokyo is a one-page React application that features searching for livehouses in Tokyo by location, genre, and keyword. Users can also add livehouses to the application.
 ## Table of Contents
 
 - [Installation](#installation)
@@ -41,8 +40,8 @@ Soundmap Tokyo is a one-page React application that features searching for liveh
 
 - Filter livehouses by title. Future updates will include filtering by genre, location, or title.
 - Livehouses display instantly when searching by title.
-- Click on a livehouse to view more details.
-- Add new livehouses by filling in the form provided.
+- Livehouses show links to the website, a Google Maps link and email (if available).
+- Add new livehouses to the application and custom API through the Sidebar.jsx component.
 
 ## API
 
